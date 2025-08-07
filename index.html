@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div id="calc">
+            <p><input type="number" name="" id="number1"></p>
+            <p><input type="number" name="" id="number2"></p>
+            <input type="button" value="+" onclick="somar()">
+            <input type="button" value="-" onclick="subtrair()">
+            <input type="button" value="/" onclick="dividir()">
+            <input type="button" value="*" onclick="multiplicar()">
+           <button onclick="limpar()" id="btn-limpar">Limpar</button>
+
+        </div>
+        <div id="res">
+
+        </div>
+
+
+    </section>
+    <footer>
+        <p>&copy; Tiago Esteban</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
